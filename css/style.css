@@ -1,0 +1,141 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: #e0e8ff;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  background-size: cover;
+}
+
+.card {
+  height: 550px;
+  width: 330px;
+  border-radius: 20px;
+  background-color: #fff;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 15px 4px rgba(77, 32, 134, 0.5);
+          box-shadow: 0px 0px 15px 4px rgba(77, 32, 134, 0.5);
+}
+
+.img-section {
+  width: 100%;
+  height: 30%;
+  background-image: url("../images/illustration-hero.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.text-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  height: 70%;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.text-section h2 {
+  color: #1f2f56;
+}
+
+.text-section p {
+  font-size: 16px;
+  color: #7280a7;
+}
+
+.text-section .plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 10px;
+  background-color: #f5f7ff;
+  border-radius: 10px;
+}
+
+.text-section .plan p {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+
+.text-section .plan p .price {
+  font-weight: normal;
+  color: #7280a7;
+}
+
+.text-section .plan a {
+  text-decoration: none;
+  padding: 10px;
+  color: #3829e0;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.text-section .plan a:hover {
+  color: #781ab6;
+}
+
+.text-section button {
+  padding: 20px;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  color: white;
+  background-color: #3829e0;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  -webkit-box-shadow: 2px 3px 10px rgba(87, 22, 192, 0.7);
+          box-shadow: 2px 3px 10px rgba(87, 22, 192, 0.7);
+}
+
+.text-section button:hover {
+  background-color: #834dc9;
+}
+
+.text-section .cancel {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 10px;
+  color: #7280a7;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.text-section .cancel:hover {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
